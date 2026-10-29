@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.moneyyoureowed/catalog",
+  "description": "Informational Q&A: money owed to consumers (deposits, claims, unclaimed funds). No debt relief.",
+  "title": "Money You're Owed Catalog",
+  "version": "1.0.0",
+  "websiteUrl": "https://moneyyoureowed.com/connect",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moneyyoureowed.com/mcp"
+    }
+  ]
+}
